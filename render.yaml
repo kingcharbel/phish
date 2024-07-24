@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: gophish
+    name: phish
     env: docker
     dockerfilePath: ./Dockerfile
     branch: main

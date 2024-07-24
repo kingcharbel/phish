@@ -1,9 +1,9 @@
 services:
-- type: web
-  name: gophish
-  env: docker
-  dockerfilePath: ./Dockerfile
-  branch: main
-  plan: starter
-  healthCheckPath: /
-  autoDeploy: true
+  - type: web
+    name: gophish
+    env: docker
+    dockerfilePath: ./Dockerfile
+    branch: main
+    plan: starter
+    healthCheckPath: /
+    autoDeploy: true

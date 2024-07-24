@@ -7,3 +7,4 @@ services:
     plan: starter
     healthCheckPath: /
     autoDeploy: true
+
